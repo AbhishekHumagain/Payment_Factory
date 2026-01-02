@@ -219,28 +219,9 @@ POST /payments/new_provider
 
 ---
 
-## 🔐 Security Notes
-
-* Never commit API keys
-* Use environment variables for secrets
-* Validate webhook signatures
-
----
-
-## 📌 Future Improvements
-
-* ✅ Database persistence
-* ✅ Async task queue (Celery / RQ)
-* ✅ Retry & idempotency keys
-* ✅ API authentication (JWT / OAuth)
-* ✅ Observability (Logs, Metrics, Tracing)
-
----
-
 ## 👨‍💻 Author
 
 **Abhishek Humagain**
-Senior Software Engineer | .NET & Backend Architect
 
 ---
 

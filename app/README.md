@@ -106,7 +106,7 @@ source app/.venv/bin/activate
 ### 3️⃣ Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r app/requirements.txt
 ```
 
 ### 4️⃣ Run the server

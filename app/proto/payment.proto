@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package payment;
+
+service PaymentService {
+    rpc Charge(PaymentRequest) returns (PaymentResponse);
+}
+
+message PaymentRequest {
+    string provider = 1;
+    double amount = 2;
+    string currency = 3;
+    string customer_id = 4;
+}
+
+message PaymentResponse {
+    string transaction_id = 1;
+    string status = 2;
+}

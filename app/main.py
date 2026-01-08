@@ -8,6 +8,7 @@ from app.infrastructure.webhook import stripe_webhook
 
 # Initialize FastAPI
 app = FastAPI(title="Payment Service")
+print("FastAPI app loaded:", app)
 
 # Register Payment Providers
 PaymentRegistry.register("stripe", StripeGateway)

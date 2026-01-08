@@ -12,5 +12,4 @@ async def create_payment(
     request: PaymentRequest,
     gateway=Depends(get_payment_gateway)
 ):
-    breakpoint()
     return await process_payment(provider, request)
